@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Joan&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Akshita.png" class="img-logo" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="bi bi-x-circle" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showmenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the World's Largest University</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+            repellat mollitia repudiandae labore ipsa, doloremque velit dolor,
+            sit veniam, atque asperiores explicabo expedita nam magnam omnis!
+            Atque libero quas impedit deserunt iste beatae cupiditate cumque
+            rerum eius ipsa non, nemo odit esse quibusdam natus dolore id eaque
+            eum assumenda. Facilis. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Deserunt, possimus. Voluptatibus a perspiciatis
+            ducimus nostrum debitis obcaecati facere, minima unde.
+          </p>
+          <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="meet.webp" />
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste
+        in recusandae reprehenderit <br />sunt nesciunt ducimus quo distinctio
+        esse adipisci! Lorem ipsum dolor sit amet consectetur<br />
+        adipisicing elit. Ad consequatur velit adipisci, temporibus aliquid
+        ipsam?
+      </p>
+      <div class="icon">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+        <p>Made With <i class="bi bi-heart"></i> by Akshita</p>
+      </div>
+    </section>
+    <!-- Javascript  -->
+    <script>
+      var navlinks = document.getElementById('navlinks');
+      function showmenu() {
+        navlinks.style.right = '0';
+      }
+      function hidemenu() {
+        navlinks.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>
