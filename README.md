@@ -31,7 +31,7 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine:
    bash
-   git clone https://github.com/your-username/demo-college-website.git
+   git clone https://github.com/akshitasaxena1309/Demo-web.git
 2. Open the project directory in your code editor.
 3. Explore the HTML and CSS files to understand the structure and styling of the website.
 
